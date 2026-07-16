@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "estadisticas-colegios"
+version = "1.0.0"
+description = "Automated extraction of public educational statistics from the Community of Madrid."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "medinamedinan" }
+]
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas>=2.2.0",
+    "playwright>=1.53.0",
+    "beautifulsoup4>=4.13.0",
+    "lxml>=6.0.0",
+    "html5lib>=1.1"
+]
+
+keywords = [
+    "python",
+    "playwright",
+    "beautifulsoup",
+    "education",
+    "statistics",
+    "scraping",
+    "automation",
+    "data-analysis",
+    "madrid"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Education",
+    "Intended Audience :: Education",
+    "Development Status :: 4 - Beta"
+]
+
+[project.urls]
+Homepage = "https://github.com/medinamedinan/ESTADISTICAS_COLEGIOS"
+Repository = "https://github.com/medinamedinan/ESTADISTICAS_COLEGIOS"
+Issues = "https://github.com/medinamedinan/ESTADISTICAS_COLEGIOS/issues"
