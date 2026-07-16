@@ -1,0 +1,12 @@
+# Core libraries
+pandas>=2.2.0
+
+# Browser automation
+playwright>=1.53.0
+
+# HTML parsing
+beautifulsoup4>=4.13.0
+lxml>=6.0.0
+
+# Optional parser used internally by pandas
+html5lib>=1.1
