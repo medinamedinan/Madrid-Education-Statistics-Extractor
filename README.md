@@ -202,10 +202,8 @@ playwright install chromium
 ---
 
 # Running the extractor
-
-```
 python src/extractor.py
-```
+
 
 ---
 
@@ -215,33 +213,28 @@ python src/extractor.py
 
 Place the following image inside:
 
-```
-screenshots/console_execution.png
-```
+Automated navigation through the official portal:
+![Web Automation](screenshots/web_automation_1.png)
+![Web Automation](screenshots/web_automation_2.png)
 
-Then GitHub will automatically display it:
+Real-time data extraction:
+![Console Execution](screenshots/console_execution.png)
 
-```markdown
-![Program execution](screenshots/console_execution.png)
-```
+3. Final structured dataset:
+![CSV Output](screenshots/csv_output.png)
 
 ---
 
 ## Generated CSV
 
 Place:
-
-```
 screenshots/csv_output.png
-```
+
 
 and include:
 
 ```markdown
 ![CSV Output](screenshots/csv_output.png)
-```
-
----
 
 ## Architecture
 
